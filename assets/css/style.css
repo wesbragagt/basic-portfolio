@@ -69,6 +69,7 @@ a:hover {
 }
 
 .about-container {
+    
     clear: both;
     background: rgb(216, 85, 85);
     box-shadow: 0 4px 2px -2px gray;
@@ -100,7 +101,7 @@ img {
 }
 
 .paragraph {
-    overflow: hidden;
+overflow: both;
 line-height: 1.5em;
 }
 
@@ -110,4 +111,18 @@ line-height: 1.5em;
     padding: 100px;
     width: 100%;
     
+}
+
+small {
+    position: absolute;
+    top: 90%;
+    right: 50%;
+}
+
+label {
+    margin: 5%;
+}
+
+input {
+    margin: 5%;
 }
