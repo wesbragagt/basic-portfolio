@@ -11,6 +11,7 @@ body {
 
 /* navigation bar */
 .nav-bar {
+    /* position: fixed; */
     overflow: auto;
     list-style-type: none;
     margin-bottom: 3%; 
@@ -68,6 +69,7 @@ text-decoration: none;
     /* 960/1776 in percentage */
     margin-right: 23%;
     margin-left: 23%;
+    margin-bottom: 45%;
 }
 
 hr {
@@ -86,15 +88,16 @@ padding-bottom: 10px;
 
 img {
     float: left;
-    margin-right: 2%;
-    
-    
-    
+    margin: 2% 0.001%;
 }
 
 .paragraph {
-    display: inline;
-    
-    
+line-height: 1.5em;
 }
 
+.foot {
+    background: rgb(216, 85, 85);
+    padding: 5%;
+    width: 100%;
+
+}
