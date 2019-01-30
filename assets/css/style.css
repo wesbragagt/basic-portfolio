@@ -100,7 +100,7 @@ padding: 1em;
     background: url(../images/smile.JPG);
     background-size: cover;
     background-position: center;
-    padding: 4em;
+    padding: 6em;
     margin-right: 1em;
     /* object-fit: fill; */
     /* border-radius: 25px; */
@@ -138,11 +138,11 @@ right: 0;
 
 .border {
 border: 2px solid yellow;
-padding: 1em;
+/* padding: 1em; */
 }
 
 /* portfolio boxes */
-article {
+.article-portfolio {
     
     display: flex;
     flex-direction: row;
